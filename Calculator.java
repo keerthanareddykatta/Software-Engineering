@@ -37,7 +37,8 @@ public class Calculator {
    
             calculator.multiply(num1, num2);
             System.out.println("The result of the multiplication is " + calculator.getResult());
-            calculator.divsion(num1, num2);
+                
+            calculator.division(num1, num2);
             System.out.println("The result of the division is " + calculator.getResult());
         }
     }
